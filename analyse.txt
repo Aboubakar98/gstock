@@ -1,0 +1,16 @@
+Analyse
+Logique profondément imbriquée
+Où?
+CompteControler.traitementVente (profondeur = 4)
+La logique imbriquée profonde augmente la charge cognitive sur le programmeur qui lit le code. Plus l'imbrication est profonde, plus la santé du code est faible. 
+Comment le réparer ?
+Occasionnellement, il est possible de se débarrasser de la logique imbriquée en remplaçant les conditions par des clauses de garde
+Route cahoteuse
+Où ?
+Produit.ajoutOrRetrait (bosses = 2)
+Une route cahoteuse est une fonction qui contient plusieurs morceaux de logique conditionnelle imbriquée dans la même fonction. Plus l'imbrication est profonde et plus il y a de bosses, plus la santé du code est faible. Une route de code cahoteuse représente un manque d'encapsulation qui devient un obstacle à la compréhension. Dans les langages impératifs, il existe également un risque accru d'intrication de fonctionnalités, ce qui tend à conduire à une gestion complexe des états.
+Comment le réparer ?
+Les implémentations Bumpy Road indiquent un manque d'encapsulation. Consultez la description détaillée du problème de santé du code de la route cahoteuse 
+Faible complexité globale du code
+Où ?
+Toutes les fonctions du fichier
